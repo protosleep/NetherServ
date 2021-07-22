@@ -46,8 +46,8 @@ namespace NetherServ.Protocol
 
     public class ProtocolMessage
     {
-        public static string MinecraftPEVersion = "0.14.2";
-        public static int ProtocolVersion = 46;
+        public static string MinecraftPEVersion = "1.17.10";
+        public static int ProtocolVersion = 448;
         public static byte RaknetProtocolVersion = 7;
 
         protected static byte[] mTheMagicNumber = new byte[] { 0x00, 0xff, 0xff, 0x00, 0xfe, 0xfe, 0xfe, 0xfe, 0xfd, 0xfd, 0xfd, 0xfd, 0x12, 0x34, 0x56, 0x78 };
